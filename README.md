@@ -11,5 +11,3 @@ A robust e-commerce REST API built with Go, Gin framework, and MongoDB. This pro
 - 🗄️ **MongoDB Integration**: NoSQL database for scalable data storage
 - 🐳 **Docker Support**: Containerized deployment
 - 🚀 **RESTful API**: Clean and intuitive API endpoints
-
-## 🏗️ Project Structure
