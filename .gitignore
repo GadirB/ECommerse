@@ -47,3 +47,20 @@ Thumbs.db
 
 # Docker volumes
 data/
+
+# Frontend dependencies and build files
+frontend/node_modules/
+frontend/.next/
+frontend/.env
+frontend/.env.local
+frontend/.env.production
+frontend/.env.development
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+
+# Next.js build output
+frontend/out/
+frontend/dist/
+frontend/.vercel/
