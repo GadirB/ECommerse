@@ -149,7 +149,12 @@ func Login() gin.HandlerFunc{
 
 		generate.UpdateAllTokens(token, refreshToken, foundUser.User_ID)
 
-		c.JSON(http.StatusFound, foundUser)
+		c.JSON(http.StatusOK, gin.H{
+			"token": token,
+			"refresh_token": refreshToken,
+			"InsertedID": foundUser.User_ID,
+			"user": foundUser,
+		})
 	}
 }
 
